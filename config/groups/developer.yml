@@ -1,0 +1,10 @@
+attributes:
+    homebrewalt:
+        apps:
+            - git
+        cask_apps:
+            - firefox
+            - gitx-rowanj
+            - google-chrome
+            - sequel-pro
+

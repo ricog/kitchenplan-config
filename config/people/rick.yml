@@ -1,13 +1,18 @@
 groups:
-    - groupa
+    - developer
+    - loadsys
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
+        - osxdefaults::set_terminal_profile
 attributes:
-    osxdefaults:
-        computername: MyComputerName
     homebrewalt:
         apps:
-            - git-extras
+            - git
         cask_apps:
-            - sourcetree
+            - firefox
+            - gitx-rowanj
+            - google-chrome
+            - sequel-pro
+    osxdefaults:
+        computername: ender
