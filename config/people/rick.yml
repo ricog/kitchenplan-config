@@ -17,5 +17,6 @@ attributes:
             - iterm2
             - quicksilver
             - sequel-pro
+            - spotify
     osxdefaults:
         computername: ender
