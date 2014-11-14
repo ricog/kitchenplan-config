@@ -6,12 +6,12 @@ attributes:
             - git
             - go
             - hub
+            - tree
         cask_apps:
             - firefox
             - gitx-rowanj
             - google-chrome
             - iterm2
             - sequel-pro
-            - tree
             - vagrant
 
