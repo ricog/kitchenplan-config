@@ -15,6 +15,7 @@ attributes:
             - gitx-rowanj
             - google-chrome
             - iterm2
+            - quicksilver
             - sequel-pro
     osxdefaults:
         computername: ender
