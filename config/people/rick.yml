@@ -13,6 +13,7 @@ attributes:
             - firefox
             - gitx-rowanj
             - google-chrome
+            - iterm2
             - sequel-pro
     osxdefaults:
         computername: ender
