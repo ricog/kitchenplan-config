@@ -1,23 +1,16 @@
 groups:
     - developer
     - loadsys
+    - vim
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
         - osxdefaults::set_terminal_profile
 attributes:
     homebrewalt:
-        apps:
-            - git
-            - vim
         cask_apps:
-            - firefox
-            - gitx-rowanj
-            - google-chrome
-            - iterm2
             - moom
             - quicksilver
-            - sequel-pro
             - spotify
     osxdefaults:
         computername: ender

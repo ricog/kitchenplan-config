@@ -1,10 +1,17 @@
 attributes:
     homebrewalt:
         apps:
+            - docker
+            - fig
             - git
+            - go
+            - hub
         cask_apps:
             - firefox
             - gitx-rowanj
             - google-chrome
+            - iterm2
             - sequel-pro
+            - tree
+            - vagrant
 
