@@ -4,6 +4,10 @@ groups:
     - vim
 recipes:
     mac_os_x:
+        - osxdefaults::check_for_software_updates_daily
+        - osxdefaults::dock_automatically_hide_and_show_the_dock
+        - osxdefaults::dock_position_the_dock_on_the_right_side
+        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::set_computer_name
         - osxdefaults::set_terminal_profile
 attributes:
