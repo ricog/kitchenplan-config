@@ -7,6 +7,7 @@ recipes:
         - osxdefaults::check_for_software_updates_daily
         - osxdefaults::dock_automatically_hide_and_show_the_dock
         - osxdefaults::dock_position_the_dock_on_the_right_side
+        - osxdefaults::dock_wipe_all_default_app_icons_from_dock
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::set_computer_name
         - osxdefaults::set_terminal_profile
