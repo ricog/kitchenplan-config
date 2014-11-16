@@ -7,6 +7,7 @@ recipes:
         - osxdefaults::check_for_software_updates_daily
         - osxdefaults::dock_automatically_hide_and_show_the_dock
         - osxdefaults::dock_position_the_dock_on_the_right_side
+        - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
         - osxdefaults::dock_wipe_all_default_app_icons_from_dock
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::set_computer_name
@@ -19,3 +20,5 @@ attributes:
             - spotify
     osxdefaults:
         computername: ender
+        dock:
+            tilesize: 24
