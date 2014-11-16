@@ -7,4 +7,5 @@ recipes:                                       # Configs are parsed and every li
 attributes:
     homebrewalt:
         apps:
+            - bash-completion
             - git
