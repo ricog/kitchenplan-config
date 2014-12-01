@@ -2,6 +2,8 @@ attributes:
     homebrewalt:
         cask_apps:
             - harvest
+            - remote-desktop-connection
             - screenhero
+            - skype
             - slack
 

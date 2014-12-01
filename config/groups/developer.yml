@@ -6,12 +6,18 @@ attributes:
             - git
             - go
             - hub
+            - mcrypt # Needed for node apps running locally
             - tree
         cask_apps:
+            - dash
             - firefox
             - gitx-rowanj
             - google-chrome
             - iterm2
             - sequel-pro
             - vagrant
-
+            - virtualbox
+    nodejs:
+        apps:
+            - grunt-cli
+            - nodemon
