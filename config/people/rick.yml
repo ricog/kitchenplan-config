@@ -11,6 +11,7 @@ recipes:
         - osxdefaults::dock_wipe_all_default_app_icons_from_dock
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::set_computer_name
+        - osxdefaults::set_screensaver_preferences
         - osxdefaults::set_terminal_profile
 attributes:
     homebrewalt:
@@ -22,3 +23,6 @@ attributes:
         computername: ender
         dock:
             tilesize: 24
+        screensaver:
+            askForPasswordDelay: 5
+            idleTime: 1200
