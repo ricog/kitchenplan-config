@@ -8,7 +8,9 @@ attributes:
             - hub
             - mcrypt # Needed for node apps running locally
             - tree
+            - wget
         cask_apps:
+            - ccmenu
             - dash
             - firefox
             - gitx-rowanj
